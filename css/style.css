@@ -1,0 +1,54 @@
+img#bg-photo {
+  padding: 3em 0em 0em;
+}
+
+div#bio {
+  margin-top: 5em;
+  margin-bottom: 2em;
+}
+
+.row.bio-1 {
+  margin-bottom: 2em;
+}
+
+div#cp_widget_8ca02731-82e2-4f80-a7bb-9e7861df744d {
+  padding-top: 5em;
+}
+
+@media (max-width: 767.98px) {
+  #last-song h1.text-center {
+    padding: 0 0 0.5em;
+  }
+
+  #shows h2.text-center {
+    padding: 0.5em 0;
+  }
+
+  img#bg-photo {
+    padding: 3.5em 0em 0em;
+  }
+
+  section#last-song {
+    padding: 1em 0;
+  }
+
+  #shows h3 {
+    text-align: center;
+  }
+
+  .row {
+    padding: 0 4em;
+  }
+
+  a.nav-link {
+    margin: 3em 9em;
+  }
+
+  .col-md-3 {
+    padding: 0 0 3em;
+  }
+
+  div#navbarsExampleDefault {
+    min-height: -webkit-fill-available;
+  }
+}
