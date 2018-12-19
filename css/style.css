@@ -2,17 +2,27 @@ img#bg-photo {
   padding: 3em 0em 0em;
 }
 
-div#bio {
+/*div#bio {
   margin-top: 5em;
   margin-bottom: 2em;
+}*/
+div#bio{
+  margin-top: 5em;
+}
+div#bb-contact{
+  padding: 5em 0;
 }
 
-.row.bio-1 {
-  margin-bottom: 2em;
+.playlist{
+  padding: 4em 0 0;
 }
 
-div#cp_widget_8ca02731-82e2-4f80-a7bb-9e7861df744d {
-  padding-top: 5em;
+.row.apple-music{
+  padding: 3em 0;
+}
+
+.featurette-divider {
+    margin: 5rem 0;
 }
 
 @media (max-width: 767.98px) {
@@ -36,19 +46,45 @@ div#cp_widget_8ca02731-82e2-4f80-a7bb-9e7861df744d {
     text-align: center;
   }
 
-  .row {
-    padding: 0 4em;
+  img {
+    width: 100%;
   }
 
   a.nav-link {
-    margin: 3em 9em;
+    margin: 3em 0;
   }
 
-  .col-md-3 {
-    padding: 0 0 3em;
+  li.nav-item {
+    display: block;
+    margin: 0 auto;
+  }
+
+  #shows .container {
+    padding: 0 4em;
+  }
+
+  #shows .col-md-3 {
+    padding: 0 0 4em;
   }
 
   div#navbarsExampleDefault {
     min-height: -webkit-fill-available;
   }
+
+  /*.col-md-3 {
+    padding: 0 0 3em;
+  }
+
+  .row {
+    padding: 0 4em;
+  }*/
+
+  .playlist{
+    padding: 4em 0 0;
+  }
+
+  .row.apple-music{
+    padding: 0.9em 0;
+  }
+
 }
