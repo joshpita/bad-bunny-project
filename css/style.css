@@ -2,27 +2,84 @@ img#bg-photo {
   padding: 3em 0em 0em;
 }
 
+[class^="socicon-"], [class*=" socicon-"] {
+  font-size: 4em;
+}
+
+li {
+  list-style: none;
+}
+section#last-song{
+  margin-top: 2em;
+}
+section#last-song h1{
+  margin-bottom: 1em;
+}
+
+
+
+section#album{
+  margin: 5em 0;
+}
+section#album h2{
+  margin-bottom: 1em;
+}
+
+
+
+section#contact {
+  margin-top: 4em;
+}
+
+#contact h2.text-center {
+  margin-bottom: 1em;
+}
+#booking ul.row{
+  margin-bottom: 3em;
+}
+
+#booking ul.row {
+  padding-left: 9.5em;
+}
+
+#social-contact .block-social li {
+  margin: 0 3em;
+}
+
+#social-contact a:hover {
+  text-decoration: none;
+}
+
+#shows h2.text-center {
+  margin: 0.8em 0;
+}
+
+.container.bad-bunny-shows {
+  margin: 2em 0;
+}
+
 /*div#bio {
   margin-top: 5em;
   margin-bottom: 2em;
 }*/
-div#bio{
+div#bio {
   margin-top: 5em;
 }
-div#bb-contact{
+
+div#bb-contact {
   padding: 5em 0;
 }
 
-.playlist{
+.playlist {
   padding: 4em 0 0;
 }
 
-.row.apple-music{
+.row.apple-music {
   padding: 3em 0;
 }
 
 .featurette-divider {
-    margin: 5rem 0;
+  margin: 5rem 0;
 }
 
 @media (max-width: 767.98px) {
@@ -71,20 +128,32 @@ div#bb-contact{
     min-height: -webkit-fill-available;
   }
 
-  /*.col-md-3 {
-    padding: 0 0 3em;
+
+  #booking ul.row {
+    margin: 0 5em;
+    padding-left: 0;
   }
 
-  .row {
-    padding: 0 4em;
-  }*/
+  .block-content .row {
+    margin: 0 2em;
+  }
 
-  .playlist{
+  .block-social.list-inline {
+    padding-left: 0.5em;
+    list-style: none;
+}
+
+  #social-contact .block-social li {
+    margin: 0 2em;
+    padding: 0.5em 0;
+
+  }
+
+  .playlist {
     padding: 4em 0 0;
   }
 
-  .row.apple-music{
+  .row.apple-music {
     padding: 0.9em 0;
   }
-
 }
