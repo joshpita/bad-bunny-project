@@ -9,23 +9,22 @@ img#bg-photo {
 li {
   list-style: none;
 }
-section#last-song{
+
+section#last-song {
   margin-top: 2em;
 }
-section#last-song h1{
+
+section#last-song h1 {
   margin-bottom: 1em;
 }
 
-
-
-section#album{
+section#album {
   margin: 5em 0;
 }
-section#album h2{
+
+section#album h2 {
   margin-bottom: 1em;
 }
-
-
 
 section#contact {
   margin-top: 4em;
@@ -34,7 +33,8 @@ section#contact {
 #contact h2.text-center {
   margin-bottom: 1em;
 }
-#booking ul.row{
+
+#booking ul.row {
   margin-bottom: 3em;
 }
 
@@ -87,8 +87,20 @@ div#bb-contact {
     padding: 0 0 0.5em;
   }
 
+  section#album {
+    margin: 2em 0;
+  }
+
+  section#last-song h1 {
+    margin-bottom: 0;
+  }
+
   #shows h2.text-center {
     padding: 0.5em 0;
+  }
+
+  section#shows .col-md-4 {
+    margin: 1em 0;
   }
 
   img#bg-photo {
@@ -96,7 +108,7 @@ div#bb-contact {
   }
 
   section#last-song {
-    padding: 1em 0;
+    padding-top: 0;
   }
 
   #shows h3 {
@@ -128,7 +140,6 @@ div#bb-contact {
     min-height: -webkit-fill-available;
   }
 
-
   #booking ul.row {
     margin: 0 5em;
     padding-left: 0;
@@ -141,12 +152,11 @@ div#bb-contact {
   .block-social.list-inline {
     padding-left: 0.5em;
     list-style: none;
-}
+  }
 
   #social-contact .block-social li {
     margin: 0 2em;
     padding: 0.5em 0;
-
   }
 
   .playlist {
