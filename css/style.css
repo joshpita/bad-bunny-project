@@ -1,9 +1,31 @@
+body{
+  background-color: black;
+}
+h1,h2,h3{
+  color: yellow;
+}
+p,h4, a, span,h6{
+  color: white;
+}
+
+
 img#bg-photo {
   padding: 3em 0em 0em;
 }
 
 [class^="socicon-"], [class*=" socicon-"] {
   font-size: 4em;
+}
+
+.col-md-7 {
+    margin: 6em 0 0;
+}
+#bio-bb p {
+    margin: 0.5em 0 0;
+}
+
+.row.bb-bio:last-child {
+    margin-bottom: 4em;
 }
 
 li {
@@ -36,9 +58,6 @@ section#contact {
 
 #booking ul.row {
   margin-bottom: 3em;
-}
-
-#booking ul.row {
   padding-left: 9.5em;
 }
 
@@ -141,8 +160,7 @@ div#bb-contact {
   }
 
   #booking ul.row {
-    margin: 0 5em;
-    padding-left: 0;
+    padding-left: 6.7em;
   }
 
   .block-content .row {
@@ -161,6 +179,11 @@ div#bb-contact {
 
   .playlist {
     padding: 4em 0 0;
+  }
+
+  li.col-md.col-sm-12{
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .row.apple-music {
